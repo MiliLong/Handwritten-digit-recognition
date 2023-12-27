@@ -1,0 +1,16 @@
+{
+  "train_file": "../../test&train_csv/mnist_train.csv",
+  "train_labels_file": "../../test&train_csv/mnist_train_labels.csv",
+  "test_file": "../../test&train_csv/mnist_test.csv",
+  "test_labels_file": "../../test&train_csv/mnist_test_labels.csv",
+  "models_file": "./model.pkl",
+  "savemodels_file": "./model.pkl",
+  "test_image_file": "../../input_image/test.png",
+  "learn_rate": 0.575,
+  "?learn_rate": "调参过程中比较优秀的值",
+  "hidden_nodes": "196, 49, 10",
+  "?hidden_nodes": "隐藏层节点数, 可以多层, 用逗号加空格分隔, 最后一层节点数必须等于output_num",
+  "output_num": 10,
+  "epochs": 1,
+  "?epochs": "增加epochs基本上没有太大提升, 反而会导致过拟合"
+}
