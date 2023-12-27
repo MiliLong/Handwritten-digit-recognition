@@ -43,9 +43,9 @@ BP神经网络的特性：
 
 调整隐层神经元数和学习率，使用相同的训练和测试数据集，得出的识别率会发生变化，经过多次调整，最终取神经元数为  196，49，学习率为 0.525. 结果：经过多次测试运行，识别率均在 97%~99%之间，满足要求。 一次运行：
 
-<img src="C:\Users\MILI\AppData\Roaming\Typora\typora-user-images\image-20231223204444317.png" alt="image-20231223204444317" style="zoom: 60%;" />
+<img src="image-20231223204444317.png" alt="image-20231223204444317" style="zoom: 60%;" />
 
-<img src="C:\Users\MILI\AppData\Roaming\Typora\typora-user-images\image-20231223204709245.png" alt="image-20231223204709245" style="zoom:40%;" />
+<img src="image-20231223204709245.png" alt="image-20231223204709245" style="zoom:40%;" />
 
 分析与改进：观察结果显示，不同数字的辨识率存在差异，这与数字的辨识难度以及训练样本数量有一定关联。为了提高辨识准确性，可能需要增加更多的训练样本，或者探索更为优化的权值调整方法。
 
